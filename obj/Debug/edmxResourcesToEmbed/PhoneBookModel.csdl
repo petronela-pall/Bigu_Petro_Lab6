@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhoneNumbersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PhoneNumber">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Phonenum" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" ConcurrencyMode="Fixed" />
+    <Property Name="Subscriber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" ConcurrencyMode="Fixed" />
+    <Property Name="Contract_value" Type="Int32" ConcurrencyMode="Fixed" />
+    <Property Name="Contract_date" Type="DateTime" Precision="0" ConcurrencyMode="Fixed" />
+  </EntityType>
+  <EntityContainer Name="PhoneNumbersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PhoneNumbers" EntityType="Self.PhoneNumber" />
+  </EntityContainer>
+</Schema>
