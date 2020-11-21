@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bigu_Petro_Lab6", "Bigu_Petro_Lab6.csproj", "{2A921061-138E-4FBA-BE8A-A8E82D3C89F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookModel", "..\PhoneBookModel\PhoneBookModel.csproj", "{D3762DB4-6AB3-4F5D-8298-D6F95965CC8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A921061-138E-4FBA-BE8A-A8E82D3C89F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A921061-138E-4FBA-BE8A-A8E82D3C89F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A921061-138E-4FBA-BE8A-A8E82D3C89F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A921061-138E-4FBA-BE8A-A8E82D3C89F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3762DB4-6AB3-4F5D-8298-D6F95965CC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3762DB4-6AB3-4F5D-8298-D6F95965CC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3762DB4-6AB3-4F5D-8298-D6F95965CC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3762DB4-6AB3-4F5D-8298-D6F95965CC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CEE6356-06CA-4172-9A3A-6BD977E9FB6F}
+	EndGlobalSection
+EndGlobal
